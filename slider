@@ -1,0 +1,146 @@
+// import React from 'react';
+// import { makeStyles } from '@material-ui/core/styles';
+// import Grid from '@material-ui/core/Grid';
+// import Slider from '@material-ui/core/Slider';
+
+
+// const screen = window.screen.width
+// let top,
+//     right,
+//     sliderWidth,
+//     position,
+//     rotate,
+//     width
+// if (screen < 768) {
+//     top = 180
+//     right = -58
+//     sliderWidth = 190
+//     position = 'fixed'
+//     rotate = 90
+//     width = 190
+// }
+// else {
+//     position = 'static'
+//     width = 250
+//     rotate = 0
+// }
+// const useStyles = makeStyles({
+
+//     root: {
+
+//         width: width,
+//         position: position,
+//         top: top,
+//         right: right,
+//         transform: `rotate(${-rotate}deg)`,
+//         background: '#000'
+//     },
+//     input: {
+//         width: 42,
+//     },
+
+// });
+
+// export default function Range(props) {
+//     const classes = useStyles();
+//     const [value, setValue] = React.useState(15);
+
+//     const handleSliderChange = (event, newValue) => {
+//         setValue(newValue);
+//         props.changeFps(newValue)
+//     };
+
+
+//     return (
+//         <div className={classes.root}>
+
+//             <Grid container spacing={2} alignItems="center">
+//                 <Grid item style={{ transform: `rotate(${rotate}deg)` }}>
+//                     <div>{value} FPS</div>
+//                 </Grid>
+//                 <Grid item xs>
+//                     <Slider
+//                         value={typeof value === 'number' ? value : 0}
+//                         onChange={handleSliderChange}
+//                         aria-labelledby="input-slider"
+//                         min={1}
+//                         max={25}
+
+//                     />
+//                 </Grid>
+
+//             </Grid>
+//         </div>
+//     );
+// }
+
+
+// import React from 'react'
+
+
+// export default function Language(props) {
+
+
+//     const changeLang = (e) => {
+//         props.setLang(e.target.value)
+//     }
+//     return (
+//         <div>
+//             <select name="language" onChange={changeLang} value={props.currentLang} style={{ height: '1.5rem', background: '#000' }}>
+//                 {props.appLang.map(el => <option key={el.code} value={el.code}>{el.name}</option>)}
+//             </select>
+//         </div>
+//     )
+// }
+
+
+
+import React from 'react';
+import Menu from '@material-ui/core/Menu';
+import { IconButton } from '@material-ui/core';
+import TranslateIcon from '@material-ui/icons/Translate';
+
+export default function Language(props) {
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+
+    };
+    const changeLang = (e) => {
+        props.setLang(e.target.value)
+        handleClose()
+
+    }
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
+    return (
+        <div>
+            <IconButton onClick={handleClick} >
+                <TranslateIcon style={{ fontSize: '2rem' }} />
+            </IconButton>
+            <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+            >
+                {props.appLang.map(el => <option
+                    style={{
+                        color: '#000',
+                        borderBottom: '1px solid gray',
+                        cursor: 'pointer',
+                        padding: 10,
+                        fontSize: 16
+                    }}
+                    key={el.code}
+                    value={el.code}
+                    onClick={changeLang}
+                >{el.name}</option>)}
+            </Menu>
+        </div>
+    );
+}

@@ -1,0 +1,91 @@
+.knotList_bg{
+    background: #161616;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+.knotList_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.knotCard_block{
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    margin-top: 62px;
+}
+.cardNav{
+    text-decoration: none;
+
+    margin: 15px 0;
+}
+.knotCard:hover{
+    background: #808080;
+}
+.knotCard{
+    background: #363636;
+    border: 1px solid #2e2e2e;
+    border-radius: 15px;
+    width: 180px;
+    height: 200px;
+    margin: 15px 0;
+}
+.knotBox{
+    text-align: center;
+    width: 100%;
+}
+.knotBox_item{
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+.knotBox img{
+    width: 100px;
+}
+.secondName{
+    font-size: 12px;
+    color: #808080;
+}
+@media  (max-width: 1024px){
+    .knotCard_block{
+        grid-template-columns: repeat(4,1fr);
+    }
+}
+@media  (max-width: 992px){
+    .knotCard_block{
+        display: block;
+    }
+    .knotCard{
+        margin: 0;
+        border-radius: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .cardNav{
+        margin: 0;
+    }
+    .knotBox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: inherit;
+    }
+    .knotBox_item{
+        display: flex;
+        flex-direction: column;
+        margin-bottom:0;
+    }
+    .knotBox img{
+        width: 80px;
+        margin-right: 25px;
+    }
+
+  }
+  @media  (max-width: 768px){
+    .knotBox_item{
+        font-size: 14px;
+    }
+    .secondName{
+        font-size: 10px;
+    }
+  }

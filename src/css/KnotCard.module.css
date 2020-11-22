@@ -1,0 +1,52 @@
+.cardNav{
+    text-decoration: none;
+
+    margin: 15px 0;
+}
+.knotCard:hover{
+    background: #808080;
+}
+.knotCard{
+    background: #363636;
+    border: 1px solid #2b2a2a;
+    width: 180px;
+    height: 180px;
+    border-radius: 15px;
+}
+.knotBox{
+    text-align: center;
+    width: 100%;
+}
+.knotBox_item{
+    margin-bottom: 5px;
+}
+.knotBox img{
+    width: 100px;
+}
+
+@media  (max-width: 992px){
+    .knotCard{
+        border-radius: 0px;
+        width: 100%;
+        height: auto;
+    }
+    .cardNav{
+        margin: 0;
+    }
+    .knotBox{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        text-align: inherit;
+        justify-content: space-between;
+    }
+    .knotBox_item{
+        display: flex;
+        align-items: center;
+        margin-bottom:0;
+    }
+    .knotBox img{
+        width: 80px;
+        margin-right: 15px;
+    }
+  }

@@ -1,0 +1,39 @@
+.App {
+  text-align: center;
+}
+*{
+  color: #fff;
+  font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+}
+body{
+  background: #000;
+}
+.container{
+  max-width: 1140px;
+  margin: 0 auto;
+}
+@media  (max-width: 1200px){
+  .container{
+      max-width: 920px;
+  }
+}
+
+@media  (max-width: 992px){
+  .container{
+      max-width: 720px;
+  }
+  h1{
+    font-size: 22px;
+    font-weight: normal;
+  }
+}
+@media  (max-width: 768px){
+  .container{
+      max-width: 540px;
+  }
+}
+@media  (max-width: 576px){
+  .container{
+      max-width: auto;
+  }
+  }

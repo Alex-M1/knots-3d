@@ -1,0 +1,7 @@
+.shareButtons{
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top:35%;
+    transition-duration: 0.5s;
+}

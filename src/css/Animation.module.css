@@ -1,0 +1,37 @@
+.animation{
+    display: grid;
+    box-sizing: border-box;
+    background: #000;
+}
+
+.animationButtons{
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid white;
+
+}
+.knotFrame{
+  display: flex;
+  background: #000;
+  justify-content: center;
+  overflow: hidden;
+  box-sizing: border-box;
+}
+
+@media  (max-width: 767px){
+
+  .knotFrame{
+    border: none;
+  }
+
+
+  .animationButtons{
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    justify-content: space-evenly;
+    width: 90%;
+    background-color: black;
+    padding: 0.2rem;
+}
+}

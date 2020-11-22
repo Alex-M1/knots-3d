@@ -1,0 +1,164 @@
+{
+  "description": {
+    "name_eng": "Description",
+    "name_de": "Beschreibung",
+    "name_esp": "Descripción",
+    "name_ru": "Описание",
+    "name_fr": "La description",
+    "name_it": "Descrizione",
+    "name_tuek": "Açıklama"
+  },
+  "attention": {
+    "name_eng": "Attention",
+    "name_de": "Achtung",
+    "name_esp": "Atención",
+    "name_ru": "Внимание",
+    "name_fr": "Attention",
+    "name_it": "Attenzione",
+    "name_tuek": "Dikkat"
+  },
+  "alias": {
+    "name_eng": "Also known as",
+    "name_de": "Auch bekannt als",
+    "name_esp": "También conocido como",
+    "name_ru": "Также известен как",
+    "name_fr": "Aussi connu sous le nom",
+    "name_it": "Conosciuto anche come",
+    "name_tuek": "Ayrıca şöyle bilinir"
+  },
+  "strength": {
+    "name_eng": "Breaking strength",
+    "name_de": "Bruchfestigkeit",
+    "name_esp": "Fuerza de ruptura",
+    "name_ru": "Прочность на разрыв",
+    "name_fr": "Résistance à la rupture",
+    "name_it": "Forza di rottura",
+    "name_tuek": "Kırılma gücü"
+  },
+  "attentionText": {
+    "name_eng": "Check the knot carefully and conscientiosly! Failure to bind the knot may cause serious injury or death.",
+    "name_de": "Prüfen Sie den Knoten sorgfältig und dewissenhaft! Fejler beim binden des Knotes können zu schweren Verletzungen oder dem Tod führen.",
+    "name_esp": "Revise el nudo con cuidado y concienzudamente! La falla de atar el nudo puede causar lesiones graves o la muerte.",
+    "name_ru": "Проверяйте узел тщятельно и добросовестно! Несоблюдение этого узла может привести к серьёзным последствиям или смерти.",
+    "name_fr": "Vérifiez le noeud soigneusement et consciencieusement! Ne pas attacher le noeud peut des blessures graves ou la mort.",
+    "name_it": "Controlla li nodo con cura e con coscienza! La mancata unione del node puo prococare lesioni gravi o morte.",
+    "name_tuek": "Düğümü dikkatlice ve dikkatlice kontrol edin! Düğümü bağlayaymamak, ciddi şekildelara veya ölüme neden olabilir."
+  },
+  "results": {
+    "name_eng": "Results",
+    "name_de": "Ergebnisse",
+    "name_esp": "Resultados",
+    "name_ru": "Результаты",
+    "name_fr": "Résultats",
+    "name_it": "Risultati",
+    "name_tuek": "Sonuçlar"
+  },
+  "search": {
+    "name_eng": "Search",
+    "name_de": "Suche",
+    "name_esp": "Buscar",
+    "name_ru": "Поиск",
+    "name_fr": "Chercher",
+    "name_it": "Ricerca",
+    "name_tuek": "Arama"
+  },
+  "exitTitle": {
+    "name_eng": "Confirm exit",
+    "name_de": "Beenden Sie den Ausgang",
+    "name_esp": "Confirmar salida",
+    "name_ru": "Подтвердите выход",
+    "name_fr": "Confirmer la sortie",
+    "name_it": "Conferma l'uscita",
+    "name_tuek": "Çıkışı onayla"
+  },
+  "exitMessage": {
+    "name_eng": "Do you want to exit?",
+    "name_de": "Möchten Sie aussteigen?",
+    "name_esp": "¿Quieres salir?",
+    "name_ru": "Вы хотите выйти?",
+    "name_fr": "Voulez-vous sortir?",
+    "name_it": "Vuoi uscire?",
+    "name_tuek": "Çıkmak ister misin?"
+  },
+  "exitConfirm": {
+    "name_eng": "Yes",
+    "name_de": "Ja",
+    "name_esp": "Si",
+    "name_ru": "Да",
+    "name_fr": "Oui",
+    "name_it": "Sì",
+    "name_tuek": "Evet"
+  },
+  "exitCancel": {
+    "name_eng": "No",
+    "name_de": "Nein",
+    "name_esp": "No",
+    "name_ru": "Нет",
+    "name_fr": "Non",
+    "name_it": "No",
+    "name_tuek": "Hayır"
+  },
+  "appName": {
+    "name_eng": "Knots - How to Tie Free",
+    "name_de": "Knoten - Wie man frei bindet",
+    "name_esp": "Nudos - Cómo atar gratis",
+    "name_ru": "Узлы - Как завязать бесплатно",
+    "name_fr": "Noeuds - Comment nouer gratuitement",
+    "name_it": "Nodi - Come liberarsi",
+    "name_tuek": "Knot - Nasıl Ücretsiz Kravat"
+  },
+  "rateMessage": {
+    "name_eng": "If you like Knots - How to Tie Free, please support the app by rating it! Thanks",
+    "name_de": "Wenn Sie Knoten - Wie man frei bindet mögen, unterstützen Sie die App, indem Sie sie bewerten! Vielen Dank",
+    "name_esp": "Si te gustan los Nudos - Cómo atar gratis, ¡apoya la aplicación calificándola! Gracias",
+    "name_ru": "Если вам нравится Узлы - Как завязать бесплатно, пожалуйста, поддержите приложение, оценив его! Спасибо",
+    "name_fr": "Si vous aimez Noeuds - Comment nouer gratuitement, veuillez soutenir l'application en la notant! Merci",
+    "name_it": "Se ti piace Nodi - Come liberarsi, ti preghiamo di supportare l'app valutandola! Grazie",
+    "name_tuek": "Knot - Nasıl Ücretsiz Kravat'yi beğendiyseniz, lütfen derecelendirerek uygulamayı destekleyin! Teşekkürler"
+  },
+  "noThx": {
+    "name_eng": "No thanks",
+    "name_de": "Nein Danke",
+    "name_esp": "No, gracias",
+    "name_ru": "Нет, спасибо",
+    "name_fr": "Non merci",
+    "name_it": "No grazie",
+    "name_tuek": "Hayır teşekkürler"
+  },
+  "rate": {
+    "name_eng": "Rate it",
+    "name_de": "Bewerte es",
+    "name_esp": "Puntúalo",
+    "name_ru": "Оценить",
+    "name_fr": "Évaluez-le",
+    "name_it": "Vota",
+    "name_tuek": "Oyla"
+  },
+  "selectLang": {
+    "name_eng": "Select Language",
+    "name_de": "Sprache auswählen",
+    "name_esp": "Seleccione el idioma",
+    "name_ru": "Выберите язык",
+    "name_fr": "Choisir la langue",
+    "name_it": "Seleziona la lingua",
+    "name_tuek": "Dil Seçin"
+  },
+  "recommend": {
+    "name_eng": "I recommend you",
+    "name_de": "Ich empfehle dir",
+    "name_esp": "Тe recomiendo",
+    "name_ru": "Рекомендую",
+    "name_fr": "Je te recommande",
+    "name_it": "Ti raccomando",
+    "name_tuek": "Seni öneririm"
+  },
+  "favorite": {
+    "name_eng": "The list is empty",
+    "name_de": "Die Liste ist leer",
+    "name_esp": "La lista está vacía",
+    "name_ru": "Список пуст",
+    "name_fr": "La liste est vide",
+    "name_it": " L'elenco è vuoto",
+    "name_tuek": "Liste boş"
+  }
+}

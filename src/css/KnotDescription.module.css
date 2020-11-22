@@ -1,0 +1,86 @@
+.header_bg{
+    background: #161616;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 20;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.content{
+    margin-top: 60px;
+    width: 98%;
+}
+.knotPageDescription{
+    margin-top:  4.5rem;
+    font-size: 18px;
+    text-align: left;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: "Roboto", "Helvetica", "Arial", sans-serif;
+    justify-content: space-between;
+}
+.knotPageDescription img{
+    justify-self: end;
+}
+.animate{
+    justify-self: end;
+    text-align: center;
+    box-sizing: border-box;
+}
+.knotPageDescription ul{
+    padding: 0;
+}
+.knotPageDescription li{
+    list-style: none;
+
+}
+.knotPageDescription li::before{
+    content: '-';
+    font-weight: 700;
+    margin: 0 5px 0 10px;
+}
+@media  (max-width: 767px){
+    .knotPageDescription{
+        margin-top:  3rem;
+    }
+    .descriptionText{
+        margin: 245px 0 100px 0;
+      }
+    .animate{
+        position: fixed;
+        top: 4.5rem;
+        background: #fff;
+        width: 90%;
+        box-sizing: border-box;
+        overflow: hidden;
+    }
+}
+
+@media  (max-width: 576px){
+    .knotPageDescription{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .animate{
+        justify-self: center;
+
+    }
+    .knotPageDescription img{
+        width: 200px;
+        margin-bottom: 20px;
+        align-self: center;
+    }
+    
+}
+@media  (max-width: 425px){
+    .knotPageDescription{
+        font-size: 14px;
+    }
+    .descriptionText{
+        width: 98%;
+    }
+}
